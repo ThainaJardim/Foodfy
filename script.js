@@ -1,12 +1,12 @@
 const modalOverlay = document.querySelector('.modal-overlay')
 const cards = document.querySelectorAll('.card')
-const recipes = document.querySelector(".recipe-modal")
+//const recipes = document.querySelector(".recipe-modal")//
 
 
 for (let card of cards) {
     card.addEventListener("click", function() {
 
-        let imgRecipe = card.querySelector(".culinary-recipes img").src
+        let imgRecipe = card.getAttribute("id")
         let title = card.querySelector(".culinary-recipes h4").textContent
         let author = card.querySelector(".culinary-recipes p").textContent
         

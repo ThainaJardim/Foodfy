@@ -132,9 +132,6 @@ footer p {
 .cards{
     max-width: 300px;
     margin-left: 230px;
-     
-}
-.card{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px ;
